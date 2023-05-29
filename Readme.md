@@ -1,8 +1,17 @@
+# Play music with an Arduino and a buzzer
+
+Very simple code to play some simple music over a buzzer connected to an Arduino.
+
+# Usage
+
+Hook up the buzzer on the pin specified in `src/main.cpp` and select which tune to
+play by calling it in the `setup()` function, then upload and enjoy!
+
 # Development
 
-## PlatformIO
-
-See https://docs.platformio.org/en/latest/core/index.html
+The code is compiled with [PlatformIO](https://docs.platformio.org/en/latest/core/index.html)
+but it should compile just fine with Arduino IDE as well, provided that you put the headers
+and source files in the right folders.
 
 ### Build
 
