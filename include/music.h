@@ -6,7 +6,8 @@ extern const unsigned int SPEAKER_PIN;
 extern const unsigned int tempo;
 
 template<unsigned int freq, unsigned long duration, unsigned int pitch = 0>
-inline void play_note() {
+inline void play_note()
+{
     noTone(SPEAKER_PIN);
     constexpr float d = (duration / 100.f);
     tone(SPEAKER_PIN, freq << pitch, d * tempo);
@@ -15,7 +16,8 @@ inline void play_note() {
 }
 
 template<unsigned long duration>
-inline void pause() {
+inline void pause()
+{
     delay((duration / 100.f) * tempo);
 }
 

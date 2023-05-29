@@ -2,7 +2,8 @@
 
 #include "music.h"
 
-void piratesOfTheCaribbeans() {
+void piratesOfTheCaribbeans()
+{
 	// taken from https://musescore.com/onnikoivisto/scores/3992921
 
 	// 1
