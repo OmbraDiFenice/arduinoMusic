@@ -1,2 +1,4 @@
 .pio
 .sessions
+.cache
+compile_commands.json
